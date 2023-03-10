@@ -4,11 +4,19 @@ public class Car {
         startElectricity();
         startCommand();
         startFuelSystem();
+
+        System.out.println("Engine is started");
     }
 
-    private void startElectricity() {}
+    private String startElectricity() {
+        return "Electricity is started";
+    }
 
-    private void startCommand() {}
+    private String startCommand() {
+        return "Command system is started";
+    }
 
-    private void startFuelSystem() {}
+    private String startFuelSystem() {
+        return "Fuel system is started";
+    }
 }
